@@ -22,7 +22,7 @@ module ADC_Interface #(parameter SMPL_FREQ = 48_000, SPI_CLK_FREQ = 4_000_000)(
 
 	);
 
-wire o_sck_wire;
+wire o_sck_wire,i;
 reg spi_clock_enable, sampling_clock_enable;
 reg [5:0] data_counter;
 

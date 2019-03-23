@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ASUS/Desktop/EAMTA2019/Projects/ram_FSM/FSM_modelsim
+vclk_counter
+Z0 !s110 1553123645
+!i10b 1
+!s100 TWSd70;O`Y2>gX]MXPPZ[3
+Ifj9UdCVUHU45]QfdZ312L0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ASUS/Desktop/Tesis/codigo_Tesis
+w1553122939
+8C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/clk_counter.v
+FC:/Users/ASUS/Desktop/Tesis/codigo_Tesis/clk_counter.v
+L0 9
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1553123645.000000
+!s107 C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/clk_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/clk_counter.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vtb_clk_counter
+R0
+!i10b 1
+!s100 5A[?6YGdYLzFzQhd9oQOd1
+II:9nllf3O>4z[fj30B`I`2
+R1
+R2
+w1553123640
+8C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/tb_clk_counter.v
+FC:/Users/ASUS/Desktop/Tesis/codigo_Tesis/tb_clk_counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/tb_clk_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Tesis/codigo_Tesis/tb_clk_counter.v|
+!s101 -O0
+!i113 1
+R5

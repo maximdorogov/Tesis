@@ -22,7 +22,7 @@ module ADC_Interface #(parameter SMPL_FREQ = 48_000, SPI_CLK_FREQ = 4_000_000)(
 
 	);
 
-wire o_sck_wire,i;
+wire o_sck_wire;
 reg spi_clock_enable, sampling_clock_enable;
 reg [5:0] data_counter;
 
@@ -36,7 +36,7 @@ clk_counter #(.F_CLK_OUT(SPI_CLK_FREQ)) spi_clock(
 
 	.clk(clk),
 	.i_rst(i_reset),
-	.o_clk(sck_wire),
+	.o_clk(o_sck_wire),
 	.i_enable(spi_clock_enable)
 
 	);
@@ -83,7 +83,7 @@ clk_counter #(.F_CLK_OUT(SMPL_FREQ)) sampling_clock(
             end
             READ_DATA : begin
 
-			   sampling_clock_enable <= 1'b1;
+			         sampling_clock_enable <= 1'b1;
            	   spi_clock_enable 	 <= 1'b1;
 
                if (!i_read_enable) begin

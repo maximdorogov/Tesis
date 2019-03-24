@@ -1,6 +1,3 @@
-
-
-
 module tb_clk_counter();
 
 	reg clk, rst, enable; 
@@ -30,3 +27,5 @@ clk_counter #(.F_CLK_OUT(48_000),.F_CLK_IN(50_000_000)) DUT(
 
 
 endmodule
+
+
